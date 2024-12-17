@@ -111,7 +111,7 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <br>
 <h3>&#9320; Download and install php-7.3.8-nts-Win32-VC15-x86.zip </h3>
 <p> Download and install php-7.3.8-nts-Win32-VC15-x86.zip from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> and unzip the contents into the newly created C:\PHP </p>
-<img width="631" alt="PHP zip" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302418830-b43949f3-78a7-4ab8-a526-dfd4f159d2d6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T153001Z&X-Amz-Expires=300&X-Amz-Signature=f01d3ef38d927cb3b8e44b856ea7606a62dfb5c4d9dce5e437dc9506ffd13e1a&X-Amz-SignedHeaders=host">
+<img width="631" alt="PHP zip" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302418830-b43949f3-78a7-4ab8-a526-dfd4f159d2d6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T155334Z&X-Amz-Expires=300&X-Amz-Signature=27d796fdfdd4152f5f5ce7be03fab4fc4986de4bc2d8579be68ba7b385d54013&X-Amz-SignedHeaders=host">
 <br>
 <h3>&#9321; Download and install VC_redist.x86.exe </h3>
 <br>
@@ -122,14 +122,14 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p>[X]Standard Configuration 
 </p>
 <br>
-<img width="383" alt="mysql" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302419946-964a5ada-7d58-4efd-a0f2-6744610d999d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T153018Z&X-Amz-Expires=300&X-Amz-Signature=b52a81675c44f788b8bcd01845ed51a21f5b6a9ecc63878a917568512ebcbd0d&X-Amz-SignedHeaders=host">
+<img width="383" alt="mysql" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302419946-964a5ada-7d58-4efd-a0f2-6744610d999d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T155527Z&X-Amz-Expires=300&X-Amz-Signature=acf7776f89a10c6ae73b7e41b3f42e219a9e95d435cb95dc09ee80540eec757c&X-Amz-SignedHeaders=host">
 <br>
 <h3>&#9323; Launch IIS as an administrator</h3>
 <p> Search for IIS in the windows search bar and right click it and select open as administrator</p>
 <br>
 <h3>&#9324; Register PHP Manager </h3>
 <br>
-<img width="682" alt="PHP registration 2" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302426016-a3282eb4-90ea-474b-9259-33bfa4d01957.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T153042Z&X-Amz-Expires=300&X-Amz-Signature=4253872cb60ea805640ab2fa51063eb1c1363e1152e944d0ee7bf9dc9548591f&X-Amz-SignedHeaders=host">
+<img width="682" alt="PHP registration 2" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302426016-a3282eb4-90ea-474b-9259-33bfa4d01957.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T155619Z&X-Amz-Expires=300&X-Amz-Signature=bdc451085c8e912e84bd86f759bf48db1f99abb68e143a9381465774bb4d348f&X-Amz-SignedHeaders=host">
 
 <br>
 <br>
