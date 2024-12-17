@@ -68,19 +68,19 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <h3>&#9315; Connect to your VM using the Remote Desktop Connection app</h3>
 <p>Open your Remote Desktop Connection app and paste the VM's IP and login with the same login credentials used to create the VM.</p>
 <p>
-<img width="302" alt="Remote desktop app" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/301684901-f331b259-db5b-447d-a05c-0367ef4297a0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T152656Z&X-Amz-Expires=300&X-Amz-Signature=1cd951faaddf69b5efbf52d346c93eae77c195cea65d6f4843c70fb2dca8fa77&X-Amz-SignedHeaders=host">
+<img width="302" alt="Remote desktop app" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/301684901-f331b259-db5b-447d-a05c-0367ef4297a0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T154726Z&X-Amz-Expires=300&X-Amz-Signature=f50f08580afde9ac28aa3c55caada167e6512a9a3337c79158595bee42eaf313&X-Amz-SignedHeaders=host">
 
 
 </p>
 <br />
 <h3>&#9316; Enable IIS </h3>
 <p> Once the VM is open, we will have to install / enable IIS. Go to the Control Panel and open the programs applet. Under programs, select "Turn Windows features on or off".</p>
-<p> <img width="552" alt="CONTROL PANEL PROGRAMS" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302407163-52defb88-4165-4b34-bbea-8292bc2890c8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T152718Z&X-Amz-Expires=300&X-Amz-Signature=b7708fcb4e40f69b4a0351a221984c233c339012f3b79f9e6c2617ceecf4ad17&X-Amz-SignedHeaders=host">
+<p> <img width="552" alt="CONTROL PANEL PROGRAMS" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302407163-52defb88-4165-4b34-bbea-8292bc2890c8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T154804Z&X-Amz-Expires=300&X-Amz-Signature=e15e4713719148113534c44c407cad40b63b8466308c7ff29c155b189a153163&X-Amz-SignedHeaders=host">
 
   
 </p>
 <p>Then you will have to enable and expand the following features:</p>
-<p><img width="295" alt="Checklist 2" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302408261-0b7b096f-43e7-47a8-a3ef-5500a360453d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T152736Z&X-Amz-Expires=300&X-Amz-Signature=6c1a4b0b62e8ed62edf4589b7261d5e1cbdc2897f0268e9499478e03d127c0c1&X-Amz-SignedHeaders=host">
+<p><img width="295" alt="Checklist 2" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302408261-0b7b096f-43e7-47a8-a3ef-5500a360453d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T154911Z&X-Amz-Expires=300&X-Amz-Signature=ac36aa9c643e113d6af0926e9ac098fa32d8f4cffabf5319b4120a515b568da4&X-Amz-SignedHeaders=host">
 </p>
 <p> [X] Internet Information Services</p>
 <p>[X] Web Management Tools </p>
@@ -93,20 +93,20 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p> Click okay and the features should be enabled.</p>
 <br>
 <p> <strong> NOTE: To quickly test if the changes were applied succesfully, simply type 127.0.0.1 on your browser and the page below should appear. </strong></p>
-<img width="1094" alt="WINDOWS IIS" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302409256-4836fb28-6fcf-403d-853b-f412c707295c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T152827Z&X-Amz-Expires=300&X-Amz-Signature=1ecfb3af7d7f26355cc87c05fb2854f871420ad6e59c0f364a9f87e0dc150e07&X-Amz-SignedHeaders=host">
+<img width="1094" alt="WINDOWS IIS" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302409256-4836fb28-6fcf-403d-853b-f412c707295c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T154934Z&X-Amz-Expires=300&X-Amz-Signature=9d40e2d2ff75065ea4acff7376fd1798b9301a7de55a9baba886373169a449a9&X-Amz-SignedHeaders=host">
 <br> <br>
 <h3>&#9317; Download and Install PHP Manager</h3>
 <p> Simply download and install PHP manager from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a>(PHPManagerForIIS_V1.5.0.msi) 
 </p> <br>
-<p><img width="386" alt="PHP Manager" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302409947-566a1c1c-3731-4ff7-a74c-10a21b84a851.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T152848Z&X-Amz-Expires=300&X-Amz-Signature=af9c32e5bddd6f4579d0683332771c29ed673b2552546ee837664b6bc7e58f86&X-Amz-SignedHeaders=host">
+<p><img width="386" alt="PHP Manager" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302409947-566a1c1c-3731-4ff7-a74c-10a21b84a851.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T155027Z&X-Amz-Expires=300&X-Amz-Signature=44914e9f7a8e9df55b89a71dc7f5779ac758abfaa028ad75d1e94551baa50d0c&X-Amz-SignedHeaders=host">
 </p> 
 <br>
 <h3>&#9318; Download and Install the Rewrite Module</h3>
 <p> Download and install the rewrite module (rewrite_amd64_en-US.msi) from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> </p>
-<p><img width="386" alt="rewrite module" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302415097-177cc396-71e3-4658-9084-3e6fae94c1a5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T152911Z&X-Amz-Expires=300&X-Amz-Signature=69c670bd5ee35ef386f843330aadbed5495762dcac83ec7bad8f8b2c47b10d88&X-Amz-SignedHeaders=host"></p>
+<p><img width="386" alt="rewrite module" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302415097-177cc396-71e3-4658-9084-3e6fae94c1a5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T155056Z&X-Amz-Expires=300&X-Amz-Signature=07b7e5a08c9b1423e3447b72e560c4ced9af9ab4e7381eb459c43bb1ca653e7b&X-Amz-SignedHeaders=host"></p>
 <h3>&#9319; Create a new directory</h3>
 <p>Proceed to File Explorer and create the directory C:\PHP </p>
-<img width="647" alt="PHP" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302417245-683aa120-d73c-4bce-bf6d-f58309fdac5c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T152928Z&X-Amz-Expires=300&X-Amz-Signature=ab8a739582d39400ad571c1bd96f2e8d2bfa7ca4c07ef44cb941472c5eb480e5&X-Amz-SignedHeaders=host">
+<img width="647" alt="PHP" src="https://github-production-user-asset-6210df.s3.amazonaws.com/158519921/302417245-683aa120-d73c-4bce-bf6d-f58309fdac5c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T155117Z&X-Amz-Expires=300&X-Amz-Signature=814eb998717a7e6b755952403488aae645aebb34719b562de116fd1e86e085fa&X-Amz-SignedHeaders=host">
 <br>
 <br>
 <h3>&#9320; Download and install php-7.3.8-nts-Win32-VC15-x86.zip </h3>
